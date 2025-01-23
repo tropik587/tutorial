@@ -8,10 +8,7 @@
   "baseBranches": ["main"],
   "branchConcurrentLimit": 7,
   "packageRules": [
-    {
-      "enabled": false,
-      "matchPackageNames": ["*"]
-    },
+
     {
       "matchManagers": ["maven"],
       "matchBaseBranches": ["main"],
@@ -19,6 +16,10 @@
       "enabled": true,
       "prPriority": 2,
       "matchUpdateTypes": "patch"
+    },
+    {
+      "enabled": false,
+      "matchPackageNames": ["*"]
     }
   ]
 }
