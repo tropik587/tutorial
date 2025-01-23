@@ -13,6 +13,7 @@
       "matchPackageNames": ["*"]
     },
     {
+      "matchManagers": ["maven"],
       "matchBaseBranches": ["main"],
       "matchPackageNames": ["software.amazon.awssdk:s3"],
       "enabled": true,
