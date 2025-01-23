@@ -5,14 +5,23 @@
   ],
   "automerge": true,
   "automergeType": "branch",
-  "baseBranches": ["main"],
+  "baseBranches": [
+    "main"
+  ],
   "packageRules": [
     {
-      "matchPackagePatterns": ["*"],
-      "enabled": "false"
-    }, {
-      "matchBaseBranches": ["main"],
-      "matchPackageNames": ["software.amazon.awssdk"],
+      "enabled": false,
+      "matchPackageNames": [
+        "*"
+      ]
+    },
+    {
+      "matchBaseBranches": [
+        "main"
+      ],
+      "matchPackageNames": [
+        "software.amazon.awssdk"
+      ],
       "enabled": true,
       "prPriority": 5,
       "matchUpdateTypes": "patch"
