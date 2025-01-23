@@ -5,7 +5,18 @@
   ],
   "automerge": true,
   "automergeType": "branch",
-  "baseBranches": [
-    "main"
+  "baseBranches": ["main"],
+  "packageRules": [
+    {
+      "enabled": false,
+      "matchPackageNames": ["*"]
+    },
+    {
+      "matchBaseBranches": ["main"],
+      "matchPackageNames": ["software.amazon.awssdk:s3"],
+      "enabled": true,
+      "prPriority": 5,
+      "matchUpdateTypes": "patch"
+    }
   ]
 }
