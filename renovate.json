@@ -16,10 +16,6 @@
       "enabled": true,
       "prPriority": 2,
       "matchUpdateTypes": "patch"
-    },
-    {
-      "enabled": false,
-      "matchPackageNames": ["*"]
     }
   ]
 }
