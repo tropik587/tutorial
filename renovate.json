@@ -5,16 +5,5 @@
   ],
   "automerge": true,
   "automergeType": "branch",
-  "baseBranches": ["main"],
-  "packageRules": [
-
-    {
-      "matchManagers": ["maven"],
-      "matchBaseBranches": ["main"],
-      "matchPackageNames": ["software.amazon.awssdk:s3"],
-      "enabled": true,
-      "prPriority": 2,
-      "matchUpdateTypes": "patch"
-    }
-  ]
+  "baseBranches": ["main"]
 }
