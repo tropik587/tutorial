@@ -9,16 +9,14 @@
   "baseBranches": ["main"],
   "packageRules": [
     {
-      "enabled": false,
-      "matchPackageNames": ["*"]
+      "matchPackageNames": ["*"],
+      "enabled": false
     },
     {
       "matchBaseBranches": ["main"],
       "matchDatasources": ["maven"],
-      "matchPackageNames": ["software.amazon.awssdk/s3"],
-      "enabled": true,
-      "prPriority": 5,
-      "matchUpdateTypes": ["patch"]
+      "matchPackageNames": ["software.amazon.awssdk:s3"],
+      "enabled": true
     }
   ]
 }
