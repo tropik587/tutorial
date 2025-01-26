@@ -9,8 +9,8 @@
   "baseBranches": ["main"],
   "packageRules": [
     {
-      "matchPackageNames": ["*"],
-      "enabled": false
+      "enabled": false,
+      "matchPackageNames": ["*"]
     },
     {
       "matchBaseBranches": ["main"],
