@@ -4,6 +4,7 @@
     "config:recommended"
   ],
   "automerge": true,
+  "ignoreTests": true,
   "automergeType": "branch",
   "baseBranches": ["main"],
   "packageRules": [
