@@ -16,6 +16,8 @@
       "matchBaseBranches": ["main"],
       "matchPackageNames": ["software.amazon.awssdk:s3"],
       "matchCurrentVersion": "^2\\.30\\.",
+      "rangeStrategy": "increase",
+      "versioningStrategy": "auto",
       "enabled": true
     }
   ]
