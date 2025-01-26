@@ -14,9 +14,9 @@
     },
     {
       "matchBaseBranches": ["main"],
+      "matchDatasources": ["maven"],
       "matchPackageNames": ["software.amazon.awssdk:s3"],
-      "enabled": true,
-      "matchUpdateTypes": ["patch"]
+      "enabled": true
     }
   ]
 }
