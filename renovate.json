@@ -14,7 +14,7 @@
     },
     {
       "matchBaseBranches": ["main"],
-      "matchPackagePatterns": ["software.amazon.awssdk"],
+      "matchPackageNames": ["software.amazon.awssdk"],
       "enabled": true,
       "prPriority": 5,
       "matchUpdateTypes": "patch"
