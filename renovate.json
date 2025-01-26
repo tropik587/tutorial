@@ -6,5 +6,11 @@
   "automerge": true,
   "prHourlyLimit": 50,
   "automergeType": "branch",
-  "baseBranches": ["main"]
+  "baseBranches": ["main"],
+  "packageRules": [
+    {
+      "enabled": false,
+      "matchPackageNames": ["*"]
+    }
+  ]
 }
