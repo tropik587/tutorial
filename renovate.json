@@ -16,7 +16,6 @@
       "matchBaseBranches": ["main"],
       "matchPackageNames": ["software.amazon.awssdk:s3"],
       "enabled": true,
-      "prPriority": 4,
       "matchUpdateTypes": ["patch"]
     }
   ]
