@@ -17,7 +17,7 @@
       "matchPackageNames": ["software.amazon.awssdk:s3"],
       "matchManagers": ["maven"],
       "versioning":"semver",
-      "allowedVersions": "^2\\.29\\.d+$/",
+      "allowedVersions": "^2\\.29\\.\\d+$/",
       "enabled": true
     }
   ]
