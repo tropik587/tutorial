@@ -15,10 +15,10 @@
     {
       "matchBaseBranches": ["main"],
       "matchDatasources": ["maven"],
-      "matchPackageNames": ["s3"],
+      "matchPackageNames": ["software.amazon.awssdk:s3"],
       "enabled": true,
       "prPriority": 5,
-      "matchUpdateTypes": "patch"
+      "matchUpdateTypes": ["patch"]
     }
   ]
 }
