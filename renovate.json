@@ -15,8 +15,9 @@
     {
       "matchBaseBranches": ["main"],
       "matchPackageNames": ["software.amazon.awssdk:s3"],
-      "rangeStrategy": "increase",
-      "versioningStrategy": "auto",
+      "matchManagers": ["maven"],
+      "versioning":"semver",
+      "allowedVersions": "/^\\d+\\.\\d+\\.\\d+$/",
       "enabled": true
     }
   ]
