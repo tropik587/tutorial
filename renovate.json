@@ -4,8 +4,7 @@
     "config:recommended"
   ],
   "automerge": true,
-  "prHourlyLimit": 1000,
-  "ignoreTests": true,
+  "prHourlyLimit": 50,
   "automergeType": "branch",
   "baseBranches": ["main"]
 }
