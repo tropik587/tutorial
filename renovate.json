@@ -15,7 +15,9 @@
     {
       "matchBaseBranches": ["main"],
       "matchPackageNames": ["software.amazon.awssdk:s3"],
-      "enabled": true
+      "enabled": true,
+      "matchUpdateTypes": ["minor", "patch", "minor", "pin", "pinDigest"],
+      "matchCurrentVersion": "!/^0/"
     }
   ]
 }
